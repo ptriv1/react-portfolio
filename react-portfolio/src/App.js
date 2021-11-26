@@ -12,20 +12,13 @@ function App() {
     </Router>
         <div className="Header">
           <Header />
+        </div>
+        <div>
           <About />
+        </div>
+        <div>
           <Footer />
         </div>
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
     </div>
   );
 }

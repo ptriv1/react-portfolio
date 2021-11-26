@@ -4,10 +4,12 @@ function Header() {
   return (
     <div>
       <h1>PIA T</h1>
-      <p>About Me</p>
-      <p>Contact</p>
-      <p>Portfolio</p>
-      <p>Resume</p>
+      <ul class="navigation-menu"> 
+        <li class="navigation">About Me</li>
+        <li class="navigation">Contact</li>
+        <li class="navigation">Portfolio</li>
+        <li class="navigation">Resume</li>
+      </ul>
     </div>
   )
 }
