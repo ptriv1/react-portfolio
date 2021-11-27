@@ -1,16 +1,10 @@
+* {
+  margin: 0px;
+}
+
 .App {
+  background-color:white;
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
 }
 
 .App-header {
@@ -24,6 +18,10 @@
   color: white;
 }
 
+.name-header {
+  justify-content: left;
+}
+
 .App-link {
   color: #61dafb;
 }
@@ -34,9 +32,44 @@
   justify-content: center;
 }
 
-.About {
-  background-color: lightgreen;
+.about {
+  color: black;
   justify-content: center;
+  padding: 20px;
+}
+
+.about-picture {
+  padding: 10px;
+}
+
+.contact {
+  align-items: center;
+}
+
+.contact-form {
+  justify-content: center;
+  padding: 20px;
+}
+
+.contact-form-label {
+  padding: 20px;
+  margin: 10px;
+}
+
+.contact-form-line {
+  align-items: center;
+  padding: 10px;
+}
+
+.project {
+  align-content: space-between;
+  align-items: center;
+  border: 2px;
+  border-color: black;
+  border-style: solid;
+  flex-direction: row;
+  justify-content: center;
+  margin: 10px;
 }
 
 @keyframes App-logo-spin {

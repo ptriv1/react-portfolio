@@ -1,20 +1,30 @@
 import logo from './logo.svg';
 import './App.css';
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Route } from 'react-router-dom';
 import Header from './components/Header';
 import About from './components/About';
+import Contact from './components/Contact';
 import Footer from './components/Footer';
+import Portfolio from './components/Portfolio';
+import Resume from './components/Resume';
 
 function App() {
   return (
     <div className="App">
-    <Router>
-    </Router>
         <div className="Header">
           <Header />
         </div>
         <div>
           <About />
+        </div>
+        <div>
+          <Contact />
+        </div>
+        <div>
+          <Portfolio />
+        </div>
+        <div>
+          <Resume />
         </div>
         <div>
           <Footer />
