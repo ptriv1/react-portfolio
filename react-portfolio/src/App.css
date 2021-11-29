@@ -68,8 +68,13 @@
   border-color: black;
   border-style: solid;
   flex-direction: row;
+  display: inline-block;
   justify-content: center;
   margin: 10px;
+}
+
+.project-title {
+  padding: 5px;
 }
 
 @keyframes App-logo-spin {
