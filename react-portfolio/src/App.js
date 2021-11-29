@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import { BrowserRouter as Router, Switch, Route, Routes } from 'react-router-dom';
 import Header from './components/Header';
+import Menu from './components/Menu';
 import About from './components/About';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
@@ -15,7 +16,7 @@ function App() {
           <Header />
           <div>
             <Router>
-              <navbar />
+              <Menu />
               <Routes>
                 <Route path='/About' component={About} />
               </Routes>
