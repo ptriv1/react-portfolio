@@ -1,6 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
-import { BrowserRouter as Router, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Header from './components/Header';
 import About from './components/About';
 import Contact from './components/Contact';
@@ -13,6 +13,14 @@ function App() {
     <div className="App">
         <div className="Header">
           <Header />
+          <div>
+            <Router>
+              <navbar />
+              <Routes>
+                <Route path='/About' component={About} />
+              </Routes>
+            </Router>
+          </div>  
         </div>
         <div>
           <About />
