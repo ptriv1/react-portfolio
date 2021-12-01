@@ -88,31 +88,47 @@ a {
 }
 
 .contact-header {
-  padding-top: 80px;
+  padding-top: 50px;
 }
 
 .contact-paragraph {
   padding-top: 50px;
+  padding-bottom: 20px;
 }
 
-.contact-form {
+.contact-container {
+  display: flex;
   justify-content: center;
-  padding: 20px;
+}
+
+.contact-flex-left {
+  display: block;
+  margin: 10px;
+}
+
+.contact-flex-right {
+  display: block;
+  margin: 10px;
 }
 
 .contact-form-label {
   display: block;
-  text-align: center;
+  margin: 10px;
 }
 
 .contact-form-input {
-  
+  display: block;
+  margin: 10px;
 }
 
-.contact-form-line {
-  align-items: center;
-  display: block;
-  padding: 10px;
+.contact-submit {
+  background-color: tan;
+  color: black;
+  margin: 20px;
+  padding-top: 3px;
+  padding-left: 20px;
+  padding-bottom: 3px;
+  padding-right: 20px;
 }
 
 .project {

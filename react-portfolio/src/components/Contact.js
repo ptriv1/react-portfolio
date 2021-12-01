@@ -7,24 +7,21 @@ function Contact() {
             <p class="contact-paragraph">Please use the below form to contact me!</p>
             <div>
                 <form action="mailto:trivedp18@gmail.com" method="get" enctype="text/plain">
-                    <div>
-                        <label class="contact-form-label" for="name">Name:
-                        <input type="text" name="name" id="name" />
-                        </label>
+                    <div class="contact-container">
+                        <div class="contact-flex-left">
+                            <label class="contact-form-label" for="name">Name:</label>
+                            <label class="contact-form-label" for="email">Email:</label>
+                            <label class="contact-form-label">Message:</label>
+                        </div>
+                        <div class="contact-flex-right">
+                            <input class="contact-form-input" type="text" name="name" id="name" /> 
+                            <input class="contact-form-input" type="text" name="email" id="email" />
+                            <textarea class="contact-form-input" name="message"></textarea>
+                        </div>
                     </div>
-                    <div>
-                        <label class="contact-form-label" for="email">Email:
-                        <input type="text" name="email" id="email" />
-                        </label>
-                    </div>
-                    <div>
-                        <label class="contact-form-label">Message:</label>
-                        <br />
-                        <textarea name="message"></textarea>
-                    </div>
-                    <div>
-                        <input type="submit" name="submit" value="Submit" />
-                    </div>
+                        <div>
+                            <input class="contact-submit" type="submit" name="submit" value="Submit" />
+                        </div>
                 </form>
             </div>
         </div>
