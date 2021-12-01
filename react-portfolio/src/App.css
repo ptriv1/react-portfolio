@@ -101,23 +101,17 @@ a {
 }
 
 .contact-form-label {
-  display: inline-block;
-  text-align: left;
-  width: 100px;
-}
-
-.contact-message-label {
-  display: inline-block;
-  text-align: left;
-  width: 100px;
+  display: block;
+  text-align: center;
 }
 
 .contact-form-input {
-  width: 20%;
+  
 }
 
 .contact-form-line {
   align-items: center;
+  display: block;
   padding: 10px;
 }
 
