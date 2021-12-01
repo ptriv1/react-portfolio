@@ -18,7 +18,10 @@ function App() {
             <Router>
               <Menu />
               <Routes>
-                <Route path='/About' component={About} />
+                <Route path='/about' element={<About/>} />
+                <Route path='/contact' element={<Contact/>} />
+                <Route path='/portfolio' element={<Portfolio/>} />
+                <Route path='/resume' element={<Resume/>} />
               </Routes>
             </Router>
           </div>  
