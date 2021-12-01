@@ -87,8 +87,12 @@ a {
   max-width: 70%;
 }
 
-.contact {
-  align-items: center;
+.contact-header {
+  padding-top: 80px;
+}
+
+.contact-paragraph {
+  padding-top: 50px;
 }
 
 .contact-form {
@@ -97,6 +101,12 @@ a {
 }
 
 .contact-form-label {
+  display: inline-block;
+  text-align: left;
+  width: 100px;
+}
+
+.contact-message-label {
   display: inline-block;
   text-align: left;
   width: 100px;
