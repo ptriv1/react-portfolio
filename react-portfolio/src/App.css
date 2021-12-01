@@ -54,6 +54,12 @@
 .contact-form-label {
   padding: 20px;
   margin: 10px;
+  text-align: justify;
+  width: 2%;
+}
+
+.contact-form-input {
+  width: 20%;
 }
 
 .contact-form-line {
