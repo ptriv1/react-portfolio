@@ -52,10 +52,9 @@
 }
 
 .contact-form-label {
-  padding: 20px;
-  margin: 10px;
-  text-align: justify;
-  width: 2%;
+  display: inline-block;
+  text-align: left;
+  width: 100px;
 }
 
 .contact-form-input {
