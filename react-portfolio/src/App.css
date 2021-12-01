@@ -49,6 +49,11 @@ a {
   text-decoration: none;
 }
 
+.fotis {
+  height: auto;
+  width: 100%;
+}
+
 .about {
   color: black;
   justify-content: center;
@@ -131,27 +136,7 @@ a {
   padding-right: 20px;
 }
 
-.project {
-  align-content: space-between;
-  align-items: center;
-  border: 2px;
-  border-color: black;
-  border-style: solid;
-  flex-direction: row;
-  display: inline-block;
-  justify-content: center;
-  margin: 10px;
-}
-
-.project-title {
-  padding: 5px;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.portfolio-picture {
+  height: auto;
+  width: 100px;
 }

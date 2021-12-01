@@ -4,9 +4,6 @@ const navbar = () => {
     return (
         <div class="navigation">
             <li class="navigation-link">
-                <Link to="/">Home</Link>
-            </li>
-            <li class="navigation-link">
                 <Link to="/About">About</Link>
             </li>
             <li class="navigation-link">
