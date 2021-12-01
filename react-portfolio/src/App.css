@@ -63,12 +63,18 @@ a {
 
 .flex-left {
   display: inline;
+  padding-top: 20px;
   width: 55%;
 }
 
 .flex-right {
   display: inline;
+  padding-top: 130px;
   width: 45%;
+}
+
+.about-paragraph {
+  padding: 20px;
 }
 
 .about-picture {
