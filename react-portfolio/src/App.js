@@ -14,7 +14,8 @@ function App() {
     <div className="App">
         <div className="Header">
           <Header />
-          <div>
+        </div>
+        <div>
             <Router>
               <Menu />
               <Routes>
@@ -25,19 +26,6 @@ function App() {
               </Routes>
             </Router>
           </div>  
-        </div>
-        <div>
-          <About />
-        </div>
-        <div>
-          <Contact />
-        </div>
-        <div>
-          <Portfolio />
-        </div>
-        <div>
-          <Resume />
-        </div>
         <div>
           <Footer />
         </div>

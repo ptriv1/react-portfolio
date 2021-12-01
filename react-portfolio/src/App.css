@@ -2,6 +2,10 @@
   margin: 0px;
 }
 
+a {
+  text-decoration: unset;
+}
+
 .App {
   background-color:white;
   text-align: center;
@@ -38,7 +42,10 @@
 }
 
 .navigation-link {
+  display: inline;
   list-style-type: none;
+  padding-left: 10px;
+  padding-right: 10px;
   text-decoration: none;
 }
 
