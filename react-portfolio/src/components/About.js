@@ -3,7 +3,7 @@ import dinnerPicture from '../dinner-picture.jpg';
 
 function About() {
   return (
-    <div class="about">
+    <div className="about">
       <h1>About Me</h1>
       <div class="about-container">
         <div class="flex-left">

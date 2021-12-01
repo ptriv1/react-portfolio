@@ -2,7 +2,7 @@ import React from 'react';
 
 function Contact() {
     return (
-        <div>
+        <div className="contact">
             <h1 class="contact-header">Contact</h1>
             <p class="contact-paragraph">Please use the below form to contact me!</p>
             <div>

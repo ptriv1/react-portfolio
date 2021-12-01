@@ -2,9 +2,9 @@ import React from 'react';
 
 function Resume() {
     return (
-        <div class="resume">
+        <div className="resume">
             <h1>Resume</h1>
-            <p></p>
+            <p>Please click on my link to view my resume.</p>
         </div>
     )
 }
