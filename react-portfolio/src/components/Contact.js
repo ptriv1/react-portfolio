@@ -1,28 +1,7 @@
 import React from 'react';
 import thoughtCatalog from '../thought-catalog-unsplash.jpg';
-import { ToastContainer, toast } from 'react-toastify';
-import 'react-toastify/dist/ReactToastify.css';
-
 
 function Contact() {
-    const notifyOnEnter = (event) => {
-        console.log(event)
-        console.log(event.target)
-        window.alert("something happened")
-        toast("This field is required");
-      }
-      const notifyOnExit = (event) => {
-        console.log(event)
-        console.log(event.target)
-        window.alert("something happened")
-        toast("Please enter an email in person@email.com format");
-      }
-      const testFunction = (event) => {
-        console.log(event)
-        console.log(event.target)
-        window.alert("something happened")
-        toast("testFunction triggered");
-      }
 
     return (
         <div className="contact">
@@ -38,13 +17,12 @@ function Contact() {
                             <label class="contact-form-label">Message:</label>
                         </div>
                         <div class="contact-flex-right">
-                            <input class="contact-form-input" type="text" onMouseDownCapture={notifyOnEnter} name="name" id="name" /> 
-                            <input class="contact-form-input" type="text" onMouseEnter={notifyOnExit} name="email" id="email" />
+                            <input class="contact-form-input" type="text" name="name" id="name" /> 
+                            <input class="contact-form-input" type="text" name="email" id="email" />
                             <textarea class="contact-form-input" name="message"></textarea>
-                            <ToastContainer />
                         </div>
                         <div>
-                        <input class="contact-form-input" type="text" onBlur={testFunction} name="test" id="test" /> 
+                        <input class="contact-form-input" type="text" name="test" id="test" /> 
                         </div>
                     </div>
                         <div>
