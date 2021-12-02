@@ -126,6 +126,12 @@ a {
   margin: 10px;
 }
 
+.image-contact-page {
+  height: auto;
+  margin-top: 50px;
+  width: 20%;
+}
+
 .contact-submit {
   background-color: tan;
   color: black;
@@ -167,6 +173,32 @@ a {
   flex-wrap: wrap;
 }
 
+.resume {
+  margin: 50px;
+}
+
 .resume-header-title {
   margin: 50px;
+}
+
+.resume-paragraph {
+  margin: 20px;
+}
+
+.resume-links-paragraphs {
+  margin: 20px;
+}
+
+.resume-page-picture {
+  height: auto;
+  width: 30%;
+}
+
+.footer {
+  background-color: black;
+  color: white;
+}
+
+.footer-details {
+  justify-content: center;
 }
