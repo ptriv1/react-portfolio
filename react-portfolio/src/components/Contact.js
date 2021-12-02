@@ -5,8 +5,24 @@ import 'react-toastify/dist/ReactToastify.css';
 
 
 function Contact() {
-    const notifyOnEnter = () => toast("This field is required");
-    const notifyOnExit = () => toast("Please enter an email in person@email.com format");
+    const notifyOnEnter = (event) => {
+        console.log(event)
+        console.log(event.target)
+        window.alert("something happened")
+        toast("This field is required");
+      }
+      const notifyOnExit = (event) => {
+        console.log(event)
+        console.log(event.target)
+        window.alert("something happened")
+        toast("Please enter an email in person@email.com format");
+      }
+      const testFunction = (event) => {
+        console.log(event)
+        console.log(event.target)
+        window.alert("something happened")
+        toast("testFunction triggered");
+      }
 
     return (
         <div className="contact">
@@ -26,6 +42,9 @@ function Contact() {
                             <input class="contact-form-input" type="text" onMouseEnter={notifyOnExit} name="email" id="email" />
                             <textarea class="contact-form-input" name="message"></textarea>
                             <ToastContainer />
+                        </div>
+                        <div>
+                        <input class="contact-form-input" type="text" onBlur={testFunction} name="test" id="test" /> 
                         </div>
                     </div>
                         <div>
